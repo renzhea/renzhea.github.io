@@ -5,7 +5,7 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <link rel="dns-prefetch" href="http://example.com">
+  <link rel="dns-prefetch" href="https://renzhea.github.io">
   <title>Archives: 2023/5 | 亻者博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -13,7 +13,7 @@
   <meta name="description" content="仁但不二为亻">
 <meta property="og:type" content="website">
 <meta property="og:title" content="亻者博客">
-<meta property="og:url" content="http://example.com/archives/2023/05/index.html">
+<meta property="og:url" content="https://renzhea.github.io/archives/2023/05/index.html">
 <meta property="og:site_name" content="亻者博客">
 <meta property="og:description" content="仁但不二为亻">
 <meta property="og:locale" content="zh_CN">
@@ -77,6 +77,8 @@
 			
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">随笔</a></li>
 			
+				<li><a href="/archives/index.html" target="_blank">归档</a></li>
+			
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
@@ -128,7 +130,7 @@
       
       
       <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em;" 
-        href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">
+        href="https://github.com/renzheya" target="_blank">
         <img src="/img/forkme.png"
           class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
       
@@ -150,6 +152,8 @@
 			</hgroup>
 			
 			
+			
+				
 			
 				
 			
@@ -189,11 +193,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a target="_blank" rel="noopener" href="https://zhousiwei.gitee.io/ibooks/">技术笔记</a></li>
+					<li style="width: 25%"><a target="_blank" rel="noopener" href="https://zhousiwei.gitee.io/ibooks/">技术笔记</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 25%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+		        
+					<li style="width: 25%"><a href="/archives/index.html">归档</a></li>
 		        
 				</ul>
 			</nav>
@@ -266,7 +272,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2018-2023 <a href="http://example.com/" target="_blank">亻者</a>
+    		&copy; 2018-2023 <a href="https://renzhea.github.io/" target="_blank">亻者</a>
     	</div>
       	<div class="footer-right">
 			
@@ -443,7 +449,7 @@
             </li>
           
             <li class="search-li">
-              <a href="https://github.com/JoeyBling" target="_blank" 
+              <a href="https://github.com/renzheya" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
@@ -453,7 +459,7 @@
             </li>
           
             <li class="search-li">
-              <a href="https://gitee.com/zhousiwei" target="_blank" 
+              <a href="https://gitee.com/woshirenzhe" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
@@ -463,7 +469,7 @@
             </li>
           
             <li class="search-li">
-              <a href="https://www.jianshu.com/u/02cbf31a043a" target="_blank" 
+              <a href="https://www.jianshu.com/u/ba753b99dd53" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
@@ -473,7 +479,7 @@
             </li>
           
             <li class="search-li">
-              <a href="https://blog.csdn.net/qq_30930805" target="_blank" 
+              <a href="https://blog.csdn.net/qq_52720370" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
@@ -491,7 +497,7 @@
     	<section class="tools-section tools-section-me" q-show="aboutme">
         
           
-  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>网页前端开发<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:483734194<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
   	  	
     	</section>
     
@@ -567,6 +573,35 @@
   </div>
 
   
+<script type="text/javascript" src="/plugins/TweenMax/TweenMax.min.js"></script>
+<script type="text/javascript" src="/plugins/TweenMax/HoverImg.js"></script>
+
+<script>
+
+
+  var hoverEffect = {
+    "subNav": ".left-col .social a"
+  }
+
+
+  for (var x in hoverEffect) {
+    // 初始化data-img属性值
+    let $em = document.querySelectorAll(hoverEffect[x]);
+    $em.forEach(($a) => {
+      //console.log($a.href);
+      if (isImageType($a.href)) {
+        $a.setAttribute("data-img", $a.href)
+      }
+    })
+    // 实现悬停元素预览图片效果
+    let $a = document.querySelectorAll(hoverEffect[x] + "[data-img]");
+    $a.forEach(($em) => {
+      new HoverImgFx1($em)
+    })
+  }
+
+</script>
+
   
 <script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
 <script>
